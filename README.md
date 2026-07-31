@@ -1,35 +1,93 @@
 # Student Management System (SQL)
 
-## Overview
+## 📌 Overview
 
-A SQL-based Student Management System developed using MySQL to demonstrate database design, data manipulation, and query optimization.
+The Student Management System is a MySQL database project that demonstrates the design and implementation of a relational database for managing students, courses, faculty, and enrollments.
 
-## Features
+This project showcases practical SQL concepts commonly used in real-world database applications.
 
-- Database creation
-- Students, Courses, Faculty, Enrollments tables
-- Primary & Foreign Keys
-- INSERT, UPDATE, DELETE
+---
+
+## ✨ Features
+
+- Student Management
+- Course Management
+- Faculty Management
+- Enrollment Management
+- SQL Joins
+- Aggregate Functions
+- Views
+- Stored Procedures
+- Indexing
+
+---
+
+## 🛠 Technologies Used
+
+- MySQL Server 8.0
+- MySQL Workbench
+
+---
+
+## 📂 Project Structure
+
+```
+Student-Management-System-SQL/
+│
+├── schema.sql
+├── data.sql
+├── queries.sql
+├── procedures.sql
+├── views.sql
+├── indexes.sql
+├── README.md
+└── LICENSE
+```
+
+---
+
+## 📋 Database Tables
+
+- Students
+- Courses
+- Faculty
+- Enrollments
+
+---
+
+## 🔍 SQL Concepts Demonstrated
+
+- CREATE DATABASE
+- CREATE TABLE
+- PRIMARY KEY
+- FOREIGN KEY
+- INSERT
+- UPDATE
+- DELETE
+- SELECT
 - INNER JOIN
+- LEFT JOIN
 - GROUP BY
 - HAVING
 - ORDER BY
 - Aggregate Functions
 - VIEW
-- Stored Procedure
+- STORED PROCEDURE
 - INDEX
 
-## Technologies
+---
 
-- MySQL Server 8.0
-- MySQL Workbench
+## 🚀 How to Run
 
-## Skills Demonstrated
+1. Execute `schema.sql`
+2. Execute `data.sql`
+3. Execute `views.sql`
+4. Execute `procedures.sql`
+5. Execute `indexes.sql`
+6. Execute queries from `queries.sql`
 
-- Database Design
-- SQL Queries
-- Relational Database Management
-- Data Analysis
-- Stored Procedures
-- Views
-- Indexing
+---
+
+## 👨‍💻 Author
+
+Created as a SQL portfolio project to demonstrate relational database design and SQL query skills.
